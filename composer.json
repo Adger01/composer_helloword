@@ -1,3 +1,14 @@
 {
-    "name": "adger01/composer_helloword"
+    "name": "adger01/composer_helloword",
+    "description": "第一个composer例子",
+    "keywords": [
+        "composer",
+        "helloword",
+        "composer包"
+    ],
+    "autoload": {
+        "psr-4": {
+            "ComposerHello\\": "src/"
+        }
+    }
 }
